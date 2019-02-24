@@ -35,6 +35,7 @@ export default {
 .app_container{
     padding-top: 40px;
 	overflow-x: hidden;
+	padding-bottom: 50px;
 }
 .v-enter{
 	opacity: 0;
