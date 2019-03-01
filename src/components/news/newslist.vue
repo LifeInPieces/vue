@@ -18,6 +18,7 @@
 </template>
 
 <script>
+import {Toast} from "mint-ui"
 export default {
  data(){
      return{
@@ -33,7 +34,7 @@ export default {
             //  console.log(result)
             if(result.body.status===0){
                 this.newslist=result.body.message
-                console.log(this.newslist)
+                // console.log(this.newslist)
             }else{
                  Toast('数据获取失败')
             }
